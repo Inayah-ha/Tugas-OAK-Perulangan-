@@ -67,6 +67,7 @@ exit:
 - mov [char], al → simpan byte rendah dari eax (yaitu karakter angka) ke variabel char.
   
 ![Screenshot 2025-04-14 152221](https://github.com/user-attachments/assets/c1e92649-adf6-4163-899e-58debbfac4ac)
+
 Ini bagian penting: menggunakan int 0x80 untuk melakukan system call write.
 - eax = 4 → kode system call write.
 
